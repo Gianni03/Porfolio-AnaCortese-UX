@@ -1,0 +1,46 @@
+:root {
+  --font-title: 'Calmius Sans Extra Bold';
+  --font-subtitle: 'Garet bold';
+  --font-text: Garet;
+
+  --principal-color-blue: #012752;
+  --principal-color-greyblue: #8197b1;
+  --principal-color-ligthblue: #62c0e9;
+  --principal-color-white: #f6f6f6;
+  --principal-color-ligthgrey: #e4e9ec;
+
+  --mood-title-red: #ad1828;
+  --mood-text-blue: #1b153a;
+  --mood-background-pink: #f2e2e2;
+  --mood-card-pink: #dfa5ac;
+
+  --fit-title-orange: #f2884b;
+  --fit-text-black: #1d2029;
+
+  --rustic-title-red: #a63a50;
+  --rustic-text-brown: #8f5b43;
+  --rustic-card-grey: #f8f9fb;
+}
+
+@font-face {
+  font-family: Garet;
+  src: url(./assets/fonts/garet/Garet-Book.woff2);
+}
+
+@font-face {
+  font-family: 'Garet bold';
+  src: url(./assets/fonts/garet/Garet-Heavy.woff2);
+}
+
+@font-face {
+  font-family: 'Calmius Sans Extra Bold';
+  src: url(./assets/fonts/Calmius/Calmius_Sans_Extra_Bold_Low.ttf);
+}
+
+body {
+  font-family: Garet, 'Garet Bold', 'Calmius Sans Extra Bold';
+}
+
+html {
+  background-color: var(--principal-color-white);
+}

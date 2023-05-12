@@ -1,0 +1,24 @@
+.header {
+  width: 100vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  border: 1px solid red;
+}
+
+.header .nav__items {
+  display: flex;
+}
+
+.header__links {
+  border: 1px solid saddlebrown;
+}
+
+.header__logo {
+  border: 1px solid fuchsia;
+}
+
+.header__redes {
+  border: 1px solid blue;
+}

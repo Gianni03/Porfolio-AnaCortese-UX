@@ -1,10 +1,12 @@
-// import { useState } from 'react'
 import './App.css';
+import Container from './components/container/Container';
 
 function App() {
-  // const [count, setCount] = useState(0)
-
-  return <></>;
+  return (
+    <>
+      <Container></Container>
+    </>
+  );
 }
 
 export default App;
